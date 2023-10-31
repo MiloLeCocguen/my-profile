@@ -1,0 +1,49 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+}
+body {
+    margin: 0;
+}
+h1, h2, h3, a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+h1 {
+    font-size: 3rem;
+    color: #42977a;
+}
+h2 {
+    margin:3rem 0 0 0;
+}
+h3 {
+    margin: 1rem 0 0 0;
+}
+p {
+    margin: 0.5rem 0 1rem 0;
+}
+.moncv {
+    display: flex;
+}
+.photo {
+    padding: 30px;
+}
+.photo {
+    background-color: #42977a;
+}
+a {
+    color: #42977a;
+    font-size: 18px;
+}
+.content {
+    padding:50px
+}
+@media screen and (max-width: 640px) {
+    .moncv {
+        flex-wrap: wrap;
+   }
+    .photo {
+        width: 100%;
+        text-align: center;
+   }
+}
